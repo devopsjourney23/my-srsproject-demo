@@ -118,7 +118,7 @@ open5gs_5gc  | 04/03 11:21:58.999: [amf] INFO: gNB-N2[10.53.1.1] max_num_of_ostr
 <ins>**Building/Compiling gNB:**</ins>
 
 ```
-apt-get install cmake make gcc g++ pkg-config libfftw3-dev libmbedtls-dev libsctp-dev libyaml-cpp-dev libgtest-dev git curl jq yq -y
+apt-get install cmake make gcc g++ pkg-config libfftw3-dev libmbedtls-dev libsctp-dev libyaml-cpp-dev libgtest-dev libzmq3-dev git curl jq -y
 git clone https://github.com/srsran/srsRAN_Project.git
 cd srsRAN_Project/
 mkdir build
