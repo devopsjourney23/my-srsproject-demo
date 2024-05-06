@@ -187,7 +187,7 @@ t
 <ins>**Building/Compiling srsUE:**</ins>
 
 ```
-apt-get install build-essential cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev git curl jq yq -y
+apt-get install build-essential cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev git curl jq -y
 git clone https://github.com/srsRAN/srsRAN_4G.git
 cd srsRAN_4G/
 mkdir build
@@ -274,7 +274,7 @@ ping 10.45.1.2
 </ins>**
 
 ```
-apt install iperf3
+apt install iperf3 -y
 
 Start Server on network side:
 iperf3 -s -i 1
@@ -344,7 +344,7 @@ ip netns exec ue1 ping -i 1 8.8.8.8
 **GNU-Radio Companion:**  Run the GRC Flowgraph associated with the broker. Once started, clock "Execute the flow graph".
 
 ```
-apt install xterm gnuradio
+apt install xterm gnuradio -y
 cp /home/lax/.Xauthority /root/
 gnuradio-companion /root/srsRAN_config/multi_ue_scenario.grc
 ```
