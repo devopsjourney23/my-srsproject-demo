@@ -344,6 +344,7 @@ ip netns exec ue1 ping -i 1 8.8.8.8
 **GNU-Radio Companion:**  Run the GRC Flowgraph associated with the broker. Once started, clock "Execute the flow graph".
 
 ```
-apt install xterm
+apt install xterm gnuradio
+cp /home/lax/.Xauthority /root/
 gnuradio-companion /root/srsRAN_config/multi_ue_scenario.grc
 ```
