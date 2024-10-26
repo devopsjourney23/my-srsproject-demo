@@ -5,6 +5,8 @@
 Referring to srsran documentation, we'll try using ZeroMQ method for this setup.
 https://docs.srsran.com/projects/project/en/latest/tutorials/source/srsUE/source/index.html#zeromq-based-setup
 
+Youtube Video link to my hands-on demo --> https://www.youtube.com/watch?v=SrawJvOwUk0
+
 ![image](https://github.com/devopsjourney23/my-srsproject-demo/assets/142556153/4ef2824a-71c4-4769-9122-418ac79b9efc)
 
 
